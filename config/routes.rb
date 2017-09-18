@@ -1,3 +1,11 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+  # Rails routing
+  resources :users
+  resources :concerts
+  resources :attendances
+  resources :bookings
+  resources :airbnbs
 end
+
+root to: redirect('/')
+  resources :concerts, only: [:index, :show], to: 'static_pages#index'

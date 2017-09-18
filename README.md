@@ -1,5 +1,5 @@
 # README
-[Build Status](https://codeship.com/projects/45125660-7eb8-0135-b7e7-5e76c85e797c/status?branch=master)
+[ ![Codeship Status for cmternowchek/bandwagun](https://app.codeship.com/projects/45125660-7eb8-0135-b7e7-5e76c85e797c/status?branch=master)](https://app.codeship.com/projects/246068)
 ![Code Climate](https://codeclimate.com/github/cmternowchek/bandwagun.png)
 ![Coverage Status](https://coveralls.io/repos/cmternowchek/bandwagun/badge.png)
 
