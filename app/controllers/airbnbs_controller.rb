@@ -1,0 +1,2 @@
+class AirbnbsController < ApplicationController
+end

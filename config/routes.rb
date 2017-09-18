@@ -6,6 +6,3 @@ Rails.application.routes.draw do
   resources :bookings
   resources :airbnbs
 end
-
-root to: redirect('/')
-  resources :concerts, only: [:index, :show], to: 'static_pages#index'
