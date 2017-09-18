@@ -1,7 +1,9 @@
 source 'https://rubygems.org/'
 
+ruby '2.3.3'
+
 gem 'rails', '~> 5.1.2'
-gem 'pg', '~> 0.18'
+gem 'pg', '~> 0.15'
 gem 'puma', '~> 3.7'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
@@ -13,24 +15,23 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
 
-group :test do
-  gem 'coveralls', require: false
-end
 
 group :development, :test do
-  gem 'devise'
+  gem 'listen', '~> 3.0.5'
+  gem 'launchy', require: false
   gem 'capybara'
   gem 'factory_girl_rails'
-  gem 'launchy', require: false
+  gem 'rspec-rails', '~> 3.0'
   gem 'pry-rails'
-  gem 'rspec-rails', '~> 3.5'
-  gem 'capybara'
-  gem 'launchy'
-  gem 'factory_girl'
-  gem 'valid_attribute'
+  gem 'devise'
   gem 'shoulda'
-  gem 'shoulda-matchers', require: false
   gem 'valid_attribute'
+  gem 'shoulda-matchers', require: false
+  gem 'spring-watcher-listen', '~> 2.0.0'
+end
+
+group :test do
+  gem 'coveralls', require: false
 end
 
 group :production do
