@@ -1,0 +1,162 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/cmt/challenges/bandwagun/app/models/user.rb": [
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null
+      ],
+      "/Users/cmt/challenges/bandwagun/app/models/application_record.rb": [
+        1,
+        1,
+        null
+      ],
+      "/Users/cmt/challenges/bandwagun/app/helpers/airbnbs_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/cmt/challenges/bandwagun/app/helpers/application_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/cmt/challenges/bandwagun/app/helpers/attendances_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/cmt/challenges/bandwagun/app/helpers/bookings_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/cmt/challenges/bandwagun/app/helpers/concerts_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/cmt/challenges/bandwagun/app/helpers/static_pages_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/cmt/challenges/bandwagun/app/helpers/users_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/cmt/challenges/bandwagun/app/controllers/airbnbs_controller.rb": [
+        1,
+        null
+      ],
+      "/Users/cmt/challenges/bandwagun/app/controllers/application_controller.rb": [
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        null,
+        1,
+        0,
+        null,
+        null
+      ],
+      "/Users/cmt/challenges/bandwagun/app/controllers/attendances_controller.rb": [
+        1,
+        null
+      ],
+      "/Users/cmt/challenges/bandwagun/app/controllers/bookings_controller.rb": [
+        1,
+        null
+      ],
+      "/Users/cmt/challenges/bandwagun/app/controllers/concerts_controller.rb": [
+        1,
+        null
+      ],
+      "/Users/cmt/challenges/bandwagun/app/controllers/static_pages_controller.rb": [
+        1,
+        null
+      ],
+      "/Users/cmt/challenges/bandwagun/app/controllers/users_controller.rb": [
+        1,
+        null
+      ],
+      "/Users/cmt/challenges/bandwagun/app/models/airbnb.rb": [
+        1,
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null
+      ],
+      "/Users/cmt/challenges/bandwagun/app/models/attendance.rb": [
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        1,
+        null
+      ],
+      "/Users/cmt/challenges/bandwagun/app/models/booking.rb": [
+        1,
+        1,
+        1,
+        null,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/cmt/challenges/bandwagun/app/models/concert.rb": [
+        1,
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null
+      ],
+      "/Users/cmt/challenges/bandwagun/app/channels/application_cable/channel.rb": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "/Users/cmt/challenges/bandwagun/app/channels/application_cable/connection.rb": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "/Users/cmt/challenges/bandwagun/app/jobs/application_job.rb": [
+        0,
+        0
+      ],
+      "/Users/cmt/challenges/bandwagun/app/mailers/application_mailer.rb": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "timestamp": 1505853726
+  }
+}

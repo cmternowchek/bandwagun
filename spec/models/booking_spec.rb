@@ -1,5 +1,10 @@
 require 'rails_helper'
 
-RSpec.describe Booking, type: :model do
-  pending "add some examples to (or delete) #{__FILE__}"
+describe Booking do
+
+  it { should have_valid(:attendance_id).when(1, 99)}
+  it { should_not have_valid(:attendance_id).when(nil, '') }
+
+  it { should have_valid(:airbnb_id).when(1 , 12000)}
+  it { should_not have_valid(:airbnb_id).when(nil, '') }
 end
