@@ -1,5 +1,7 @@
 require 'rails_helper'
 
-RSpec.describe Airbnb, type: :model do
-  pending "add some examples to (or delete) #{__FILE__}"
+describe Airbnb do
+  it { should have_valid(:cost).when(1, 99)}
+  it { should_not have_valid(:cost).when(nil, '')}
+
 end
