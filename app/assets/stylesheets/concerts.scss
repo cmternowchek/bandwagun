@@ -1,3 +1,30 @@
 // Place all the styles related to the concerts controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.concert-list {
+  background-color: #ededed;
+  margin: 25px 100px;
+  font-size: 24px;
+  border: solid;
+  border-color: #d41423;
+  border-radius: 20px;
+  padding: 10px;
+  text-align: left;
+  opacity: 0.9;
+}
+
+.concert-list hr {
+  border-color: #d41423;
+}
+
+.concert-header {
+  background-color: #d41423;
+  color: #ededed;
+  text-align: center;
+  font-size: 28px;
+  margin: 0px 400px;
+}
+
+.concert-list table{
+  border-spacing: 25px;
+}

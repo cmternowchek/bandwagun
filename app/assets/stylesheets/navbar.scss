@@ -1,0 +1,131 @@
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+.nav-main {
+  display: inline-block;
+  z-index: 9;
+  position: fixed;
+}
+.nav-main label {
+  display: block;
+  height: 2em;
+  width: 2em;
+  text-indent: -9999px;
+}
+.nav-main label > i {
+  display: block;
+  text-indent: 0px;
+  padding: 1em;
+}
+.nav-main input {
+  display: none;
+}
+.nav-main input:checked + ul {
+  transform: translateX(0%);
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+.nav-main input:checked + ul > li {
+  opacity: 1;
+  transform: translateX(0%);
+}
+.nav-main input:checked + ul > li:nth-child(1) {
+  transition-delay: 0.1s;
+}
+.nav-main input:checked + ul > li:nth-child(1) i {
+  transform: translateX(0%) rotate(360deg);
+}
+.nav-main input:checked + ul > li:nth-child(2) {
+  transition-delay: 0.1s;
+}
+.nav-main input:checked + ul > li:nth-child(3) {
+  transition-delay: 0.15s;
+}
+.nav-main input:checked + ul > li:nth-child(4) {
+  transition-delay: 0.2s;
+}
+.nav-main input:checked + ul > li:nth-child(5) {
+  transition-delay: 0.25s;
+}
+.nav-main input:checked + ul > li:nth-child(6) {
+  transition-delay: 0.3s;
+}
+.nav-main input:checked + ul > li:nth-child(7) {
+  transition-delay: 0.35s;
+}
+.nav-main input:checked + ul > li:nth-child(8) {
+  transition-delay: 0.4s;
+}
+.nav-main input:checked + ul > li:nth-child(9) {
+  transition-delay: 0.45s;
+}
+.nav-main ul {
+  position: fixed;
+  top: 0;
+  margin: 0;
+  height: 100vh;
+  width: 15em;
+  padding: 0;
+  list-style: none;
+  transform: translateX(-100%);
+  transition: all 0.2s ease;
+  background: #ededed;
+  text-indent: 0;
+  box-shadow: 0 0 30px transparent;
+}
+.nav-main ul > li {
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: all 0.3s ease 0.05s;
+}
+.nav-main ul > li:nth-child(1) a {
+  padding: 0;
+}
+.nav-main ul > li:nth-child(1) a i {
+  transform: translateX(0%) rotate(0deg);
+  transition: all 0.5s ease;
+}
+.nav-main ul > li:nth-child(1) a:hover {
+  background: #ededed;
+}
+.nav-main ul > li > a {
+  display: block;
+  position: relative;
+  padding: 1em 1em;
+  color: #d41423;
+  font-weight: 900;
+  text-decoration: none;
+  transition: all 0.1s ease;
+}
+.nav-main ul > li > a:hover {
+  background: #d41423;
+  color: #ededed;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 52%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.centered h1 {
+  margin: 0.67em 0 0 0;
+}
+
+.pointer {
+  cursor: pointer;
+  padding: 1em;
+  height: 1em;
+  width: 1em;
+}
+
+
+.fa-bars{
+  color: #ededed;
+  font-size: 50px;
+  margin: 10px;
+}
+
+.fa-times{
+  font-size: 32px;
+}

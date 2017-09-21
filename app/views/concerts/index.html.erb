@@ -1,0 +1,28 @@
+<div>
+
+<div class="concert-header">
+<h1>EL SEARCHO</h1>
+</div>
+
+<div class="concert-list">
+  <table width=100%>
+    <tr>
+    <th>Artist</th>
+    <th>Date</th>
+    <th>City</th>
+    <th>Venue</th>
+    <th>Tickets</th>
+  </tr>
+<% @concerts.each do |concert| %>
+  <tr>
+    <td class="info"><%= concert.artist %></td>
+    <td class="info"><%= concert.date.to_time.strftime("%b %d, %Y") %></td>
+    <td class="info"><%= concert.city %></td>
+    <td class="info"><%= concert.venue_name %></td>
+    <td class="info"><%= concert.ticket_URL %></td>
+  </tr>
+<% end %>
+</table>
+</div>
+
+</div>

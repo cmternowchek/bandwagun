@@ -42,6 +42,7 @@ ActiveRecord::Schema.define(version: 20170919180546) do
   create_table "concerts", force: :cascade do |t|
     t.string "artist", null: false
     t.string "date", null: false
+    t.string "city", null: false
     t.string "venue_name", null: false
     t.float "venue_lat"
     t.float "venue_lng"

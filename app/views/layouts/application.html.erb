@@ -9,9 +9,31 @@
   </head>
 
   <body>
+    <nav class="nav-main">
+        <label><i class="centered fa fa-bars pointer" aria-hidden="true"></i>
+      <input type="checkbox" />
+      <ul>
+        <li><a><i class="fa fa-times pointer"></i></a></li>
+         <% if user_signed_in? %>
+        <li class=username>Signed in as <%= current_user.first_name %> <%=current_user.last_name %></li>
+        <li class=signin><%= link_to "Sign out", destroy_user_session_path, method: :delete %></li>
+        <% else%>
+        <li><%= link_to "Sign up", new_user_registration_path %></li>
+        <li><%= link_to "Sign in", new_user_session_path %></li>  
+      <%end%>
+        <li><%= link_to "Home", concerts_path %></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Get Lost</a></li>
+        <li><a href="#">Another Item</a></li>
+        <li><a href="#">Fancy Pants</a></li>
+      </ul>
+    </label>
+  </nav>
     <div class="logo">
-    <h1>BANDWAGUN</h1>
+      <%= image_tag "logo-no-border-white.png" %>
     </div>
     <%= yield %>
   </body>
-</html>
+
+  </html>
