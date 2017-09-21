@@ -13,13 +13,17 @@
  *= require_tree .
  *= require_self
  */
+ @import "font-awesome-sprockets";
+ @import "font-awesome";
+
  body {
     background-color: #EDEDED;
     background-repeat: no-repeat;
     /*background-image: url("https://scontent-iad3-1.xx.fbcdn.net/v/t31.0-8/1795346_10152235761802813_301226876_o.jpg?oh=1cb522805383b5530a5962d9e004e3be&oe=5A59EE67");*/
     /*background-image: url("http://cdn1.theodysseyonline.com/files/2015/12/29/635870211155739293895252305_concert.jpeg");*/
     background-image: url("https://fee.org/media/20484/punkconcert.jpg?anchor=center&mode=crop&height=656&widthratio=2.1341463414634146341463414634&rnd=131303491520000000");
-    background-size: 100% 100%;
+    /*background-size: 100% 100%;*/
+    background-size: cover;
     color: #6b6e70;
     font-family: Arial, Helvetica, sans-serif
   }
@@ -64,7 +68,12 @@
   .logo{
     text-align:center;
     color: #ededed;
-    background-color: #d41423;
+    background-color: #d41423;*/
     font-size: 32px;
     opacity: 0.9;
+  }
+
+  .logo img{
+    width: 55%;
+    padding:10px;
   }
