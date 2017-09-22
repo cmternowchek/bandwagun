@@ -5,6 +5,7 @@ FactoryGirl.define do
     artist "Coast Modern"
     date "2017-09-27T20:00:00"
     venue_name "Boot & Saddle"
+    city "Philaelphia"
     venue_lng 0.0
     venue_lat 0.0
     venue_zip 19147

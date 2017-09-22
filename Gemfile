@@ -8,8 +8,14 @@ gem 'puma', '~> 3.7'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 gem 'jquery-rails'
+gem 'dotenv-rails'
+gem 'react-rails'
+gem 'carrierwave', '~> 1.0'
+gem 'simplecov', :require => false, :group => :test
+gem 'fog'
 gem 'foundation-rails'
 gem 'font-awesome-sass'
+gem 'devise'
 
 
 
@@ -20,10 +26,9 @@ group :development, :test do
   gem 'factory_girl_rails'
   gem 'rspec-rails', '~> 3.0'
   gem 'pry-rails'
-  gem 'devise'
   gem 'shoulda'
   gem 'valid_attribute'
-  gem 'shoulda-matchers', require: false
+  gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
 

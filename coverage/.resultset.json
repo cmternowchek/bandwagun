@@ -153,6 +153,15 @@
         0,
         0
       ],
+      "/Users/cmt/challenges/bandwagun/app/controllers/api/v1/concerts_controller.rb": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
       "/Users/cmt/challenges/bandwagun/app/controllers/users/confirmations_controller.rb": [
         0,
         0,
@@ -377,6 +386,6 @@
         0
       ]
     },
-    "timestamp": 1505965878
+    "timestamp": 1506043217
   }
 }

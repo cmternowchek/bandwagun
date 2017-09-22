@@ -1,9 +1,14 @@
 // Place all the styles related to the concerts controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+
+
 .concert-list {
   background-color: #ededed;
-  margin: 25px 100px;
+  margin: 125px auto;
   font-size: 24px;
   border: solid;
   border-color: #d41423;
@@ -26,5 +31,37 @@
 }
 
 .concert-list table{
-  border-spacing: 25px;
+  border-spacing: 10px;
+}
+
+.info {
+}
+
+.concert-table {
+  text-align: center;
+}
+
+table {
+  border-collapse: separate;
+  border-radius: 20px;
+}
+
+
+tbody {
+   overflow: auto;
+   tr:hover {
+     background-color: white;
+     color: #d41423;
+   }
+}
+
+th {
+  text-align: center;
+  padding: 5px;
+  border-bottom: 1px solid #d41423;
+}
+
+td {
+  padding: 5px;
+  border-bottom: 1px solid #d41423;
 }
