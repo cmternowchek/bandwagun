@@ -18,7 +18,7 @@ Rails.application.routes.draw do
 
   namespace :api do
     namespace :v1 do
-      resources :concerts, only: [:index] do
+      resources :concerts, only: [:index, :show] do
       end
     end
   end
@@ -26,6 +26,6 @@ Rails.application.routes.draw do
 
 
   root to: redirect('/concerts')
-  resources :concerts, only: [:index], to: 'static_pages#index'
+  resources :concerts, only: [:index, :show], to: 'static_pages#index'
 
 end

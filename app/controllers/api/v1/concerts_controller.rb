@@ -4,4 +4,8 @@ class Api::V1::ConcertsController < ApplicationController
     render json: Concert.all
   end
 
+  def show
+   concert = Concert.find(params[:id])
+  end
+
   end

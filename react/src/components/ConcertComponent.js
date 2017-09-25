@@ -11,7 +11,8 @@ return(
         <td className="info">{props.date}</td>
         <td className="info">{props.city}</td>
         <td className="info">{props.venueName}</td>
-        <td className="info"><a href={props.ticketURL}>{ticketIcon}</a></td>
+        <td className="info"><a href={props.ticketURL}target="_blank">{ticketIcon}</a></td>
+        <td className="info"><a href={`/concerts/${props.id}`}>Info</a></td>
         </tr>
   )
 }
