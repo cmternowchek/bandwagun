@@ -1,0 +1,555 @@
+{
+    "Info": {
+        "TotalResults": 22,
+        "PageNumber": 0,
+        "Message": null
+    },
+    "Events": [{
+        "Id": 2974137,
+        "Date": "2017-09-23T20:00:00",
+        "Venue": {
+            "Id": 295,
+            "Name": "Metro",
+            "Address": "3730 N Clark",
+            "City": "Chicago",
+            "State": "Illinois",
+            "StateCode": "IL",
+            "Country": "US",
+            "CountryCode": "US",
+            "ZipCode": "60601",
+            "Url": "http://www.metrochicago.com/",
+            "Latitude": 41.949322,
+            "Longitude": -87.658453
+        },
+        "Artists": [{
+            "Id": 42766,
+            "Name": "Har Mar Superstar"
+        }, {
+            "Id": 90896,
+            "Name": "The Afghan Whigs"
+        }],
+        "TicketUrl": "http://www.tunestub.com/event.cfm?id=261704&key=ts_iEVMwYxXEOU3YNs"
+    }, {
+        "Id": 2974153,
+        "Date": "2017-09-24T19:00:00",
+        "Venue": {
+            "Id": 43364,
+            "Name": "Turner Hall Ballroom",
+            "Address": "1034 N. 4th St.",
+            "City": "Milwaukee",
+            "State": "Wisconsin",
+            "StateCode": "WI",
+            "Country": "US",
+            "CountryCode": "US",
+            "ZipCode": "53203",
+            "Url": "http://www.PabstTheater.org",
+            "Latitude": 43.0433,
+            "Longitude": -87.9162
+        },
+        "Artists": [{
+            "Id": 42766,
+            "Name": "Har Mar Superstar"
+        }, {
+            "Id": 90896,
+            "Name": "The Afghan Whigs"
+        }],
+        "TicketUrl": "http://www.tunestub.com/event.cfm?id=261705&key=ts_iEVMwYxXEOU3YNs"
+    }, {
+        "Id": 2974157,
+        "Date": "2017-09-26T00:00:00",
+        "Venue": {
+            "Id": 25731,
+            "Name": "St. Andrews Hall",
+            "Address": "431 E Congress St",
+            "City": "Detroit",
+            "State": "Michigan",
+            "StateCode": "MI",
+            "Country": "US",
+            "CountryCode": "US",
+            "ZipCode": "48226",
+            "Url": "http://www.livenation.com/Saint-Andrews-Hall-ticke",
+            "Latitude": 42.3285,
+            "Longitude": -83.0502
+        },
+        "Artists": [{
+            "Id": 42766,
+            "Name": "Har Mar Superstar"
+        }, {
+            "Id": 90896,
+            "Name": "The Afghan Whigs"
+        }],
+        "TicketUrl": "http://ticketmaster.evyy.net/c/252938/264167/4272?u=http%3A%2F%2Fconcerts.livenation.com%2Fevent%2F0800529E430B2A90"
+    }, {
+        "Id": 3018831,
+        "Date": "2017-09-27T20:30:00",
+        "Venue": {
+            "Id": 703,
+            "Name": "Grog Shop",
+            "Address": "2785 Euclid Heights Blvd # 1",
+            "City": "Cleveland",
+            "State": "Ohio",
+            "StateCode": "OH",
+            "Country": "US",
+            "CountryCode": "US",
+            "ZipCode": "44106",
+            "Url": "http://www.grogshop.gs",
+            "Latitude": 41.490452,
+            "Longitude": -81.583247
+        },
+        "Artists": [{
+            "Id": 42766,
+            "Name": "Har Mar Superstar"
+        }],
+        "TicketUrl": "http://www.shareasale.com/r.cfm?u=460319&b=234786&m=27601&afftrack=&urllink=https://www.ticketfly.com/purchase/event/1514765/tfly?utm_medium=api"
+    }, {
+        "Id": 2974138,
+        "Date": "2017-09-28T19:00:00",
+        "Venue": {
+            "Id": 388,
+            "Name": "Bogart's",
+            "Address": "2621 Vine Street",
+            "City": "Cincinnati",
+            "State": "Ohio",
+            "StateCode": "OH",
+            "Country": "US",
+            "CountryCode": "US",
+            "ZipCode": "45219",
+            "Url": "http://www.bogarts.com/",
+            "Latitude": 39.129105,
+            "Longitude": -84.509423
+        },
+        "Artists": [{
+            "Id": 42766,
+            "Name": "Har Mar Superstar"
+        }, {
+            "Id": 90896,
+            "Name": "The Afghan Whigs"
+        }],
+        "TicketUrl": "http://ticketmaster.evyy.net/c/252938/264167/4272?u=http%3A%2F%2Fconcerts.livenation.com%2Fevent%2F1600529CCA923B74"
+    }, {
+        "Id": 2974156,
+        "Date": "2017-09-29T20:00:00",
+        "Venue": {
+            "Id": 6231,
+            "Name": "Exit/In",
+            "Address": "2208 Elliston Place ",
+            "City": "Nashville",
+            "State": "Tennessee",
+            "StateCode": "TN",
+            "Country": "US",
+            "CountryCode": "US",
+            "ZipCode": "37203",
+            "Url": "http://www.exitin.com",
+            "Latitude": 36.151235,
+            "Longitude": -86.804268
+        },
+        "Artists": [{
+            "Id": 42766,
+            "Name": "Har Mar Superstar"
+        }, {
+            "Id": 90896,
+            "Name": "The Afghan Whigs"
+        }, {
+            "Id": 110682,
+            "Name": "Sweet Spirit"
+        }],
+        "TicketUrl": "http://www.shareasale.com/r.cfm?u=460319&b=234786&m=27601&afftrack=&urllink=https://www.ticketfly.com/purchase/event/1479557/tfly?utm_medium=api"
+    }, {
+        "Id": 2974139,
+        "Date": "2017-09-30T21:00:00",
+        "Venue": {
+            "Id": 152787,
+            "Name": "Saturn",
+            "Address": "200 41st St S",
+            "City": "Birmingham",
+            "State": "Alabama",
+            "StateCode": "AL",
+            "Country": "US",
+            "CountryCode": "US",
+            "ZipCode": "35222",
+            "Url": "",
+            "Latitude": 0.0,
+            "Longitude": 0.0
+        },
+        "Artists": [{
+            "Id": 42766,
+            "Name": "Har Mar Superstar"
+        }, {
+            "Id": 90896,
+            "Name": "The Afghan Whigs"
+        }],
+        "TicketUrl": "http://www.shareasale.com/r.cfm?u=460319&b=234786&m=27601&afftrack=&urllink=https://www.ticketfly.com/purchase/event/1480373/tfly?utm_medium=api"
+    }, {
+        "Id": 3029694,
+        "Date": "2017-10-11T20:00:00",
+        "Venue": {
+            "Id": 152361,
+            "Name": "The Rebel Lounge ",
+            "Address": "2303 E. Indian School Road",
+            "City": "Phoenix",
+            "State": "Arizona",
+            "StateCode": "AZ",
+            "Country": "US",
+            "CountryCode": "US",
+            "ZipCode": "85016",
+            "Url": "",
+            "Latitude": 0.0,
+            "Longitude": 0.0
+        },
+        "Artists": [{
+            "Id": 42766,
+            "Name": "Har Mar Superstar"
+        }],
+        "TicketUrl": "http://www.shareasale.com/r.cfm?u=460319&b=234786&m=27601&afftrack=&urllink=https://www.ticketfly.com/purchase/event/1540325/tfly?utm_medium=api"
+    }, {
+        "Id": 2974140,
+        "Date": "2017-10-12T19:00:00",
+        "Venue": {
+            "Id": 311,
+            "Name": "Belly Up Solana Beach",
+            "Address": "143 South Cedros Avenue",
+            "City": "Solana Beach",
+            "State": "California",
+            "StateCode": "CA",
+            "Country": "US",
+            "CountryCode": "US",
+            "ZipCode": "92075",
+            "Url": "http://www.bellyup.com/",
+            "Latitude": 32.9915,
+            "Longitude": -117.271
+        },
+        "Artists": [{
+            "Id": 42766,
+            "Name": "Har Mar Superstar"
+        }, {
+            "Id": 90896,
+            "Name": "The Afghan Whigs"
+        }],
+        "TicketUrl": "https://bellyupsolanabeach.frontgatetickets.com/event/8r8w45pkyhj3ej1f"
+    }, {
+        "Id": 2974155,
+        "Date": "2017-10-13T20:00:00",
+        "Venue": {
+            "Id": 4303,
+            "Name": "The Fonda Theatre",
+            "Address": "6126 Hollywood Blvd.",
+            "City": "Los Angeles",
+            "State": "California",
+            "StateCode": "CA",
+            "Country": "US",
+            "CountryCode": "US",
+            "ZipCode": "90001",
+            "Url": "http://www.fondatheatre.com",
+            "Latitude": 34.1016,
+            "Longitude": -118.323
+        },
+        "Artists": [{
+            "Id": 42766,
+            "Name": "Har Mar Superstar"
+        }, {
+            "Id": 90896,
+            "Name": "The Afghan Whigs"
+        }],
+        "TicketUrl": "http://www.tunestub.com/event.cfm?id=261711&key=ts_iEVMwYxXEOU3YNs"
+    }, {
+        "Id": 2974141,
+        "Date": "2017-10-14T20:00:00",
+        "Venue": {
+            "Id": 727,
+            "Name": "The Fillmore",
+            "Address": "1805 Geary Blvd",
+            "City": "San Francisco",
+            "State": "California",
+            "StateCode": "CA",
+            "Country": "US",
+            "CountryCode": "US",
+            "ZipCode": "94115",
+            "Url": "http://www.thefillmore.com",
+            "Latitude": 37.784229,
+            "Longitude": -122.433092
+        },
+        "Artists": [{
+            "Id": 42766,
+            "Name": "Har Mar Superstar"
+        }, {
+            "Id": 90896,
+            "Name": "The Afghan Whigs"
+        }],
+        "TicketUrl": "http://ticketmaster.evyy.net/c/252938/264167/4272?u=http%3A%2F%2Fconcerts.livenation.com%2Fevent%2F1C00529BC081EF2C"
+    }, {
+        "Id": 2974142,
+        "Date": "2017-10-16T19:30:00",
+        "Venue": {
+            "Id": 43910,
+            "Name": "Wonder Ballroom",
+            "Address": "128 NE Russell St.",
+            "City": "Portland",
+            "State": "Oregon",
+            "StateCode": "OR",
+            "Country": "US",
+            "CountryCode": "US",
+            "ZipCode": "97212",
+            "Url": "http://www.wonderballroom.com/",
+            "Latitude": 45.54064,
+            "Longitude": -122.663653
+        },
+        "Artists": [{
+            "Id": 42766,
+            "Name": "Har Mar Superstar"
+        }, {
+            "Id": 90896,
+            "Name": "The Afghan Whigs"
+        }],
+        "TicketUrl": "http://www.shareasale.com/r.cfm?u=460319&b=234786&m=27601&afftrack=&urllink=https://www.ticketfly.com/purchase/event/1479334/tfly?utm_medium=api"
+    }, {
+        "Id": 2974143,
+        "Date": "2017-10-17T20:00:00",
+        "Venue": {
+            "Id": 97034,
+            "Name": "Rickshaw Theatre",
+            "Address": "254 E. Hastings",
+            "City": "Vancouver",
+            "State": "British Columbia",
+            "StateCode": "BC",
+            "Country": "CA",
+            "CountryCode": "CA",
+            "ZipCode": "V6A 1A1",
+            "Url": "http://www.rickshawtheatre.com/",
+            "Latitude": 49.281328,
+            "Longitude": -123.0984649
+        },
+        "Artists": [{
+            "Id": 42766,
+            "Name": "Har Mar Superstar"
+        }, {
+            "Id": 90896,
+            "Name": "The Afghan Whigs"
+        }],
+        "TicketUrl": "http://ticketmaster.evyy.net/c/252938/264167/4272?u=http%3A%2F%2Fwww.ticketmaster.ca%2Fevent%2F1100529BC750EC1B"
+    }, {
+        "Id": 2974151,
+        "Date": "2017-10-18T00:00:00",
+        "Venue": {
+            "Id": 4613,
+            "Name": "Showbox at the Market",
+            "Address": "1426 First Avenue",
+            "City": "Seattle",
+            "State": "Washington",
+            "StateCode": "WA",
+            "Country": "US",
+            "CountryCode": "US",
+            "ZipCode": "98101",
+            "Url": "http://www.showboxonline.com/market/",
+            "Latitude": 47.608267,
+            "Longitude": -122.339185
+        },
+        "Artists": [{
+            "Id": 42766,
+            "Name": "Har Mar Superstar"
+        }, {
+            "Id": 90896,
+            "Name": "The Afghan Whigs"
+        }],
+        "TicketUrl": ""
+    }, {
+        "Id": 2974144,
+        "Date": "2017-10-19T20:00:00",
+        "Venue": {
+            "Id": 5043,
+            "Name": "Urban Lounge",
+            "Address": "241 South 500 East",
+            "City": "Salt Lake City",
+            "State": "Utah",
+            "StateCode": "UT",
+            "Country": "US",
+            "CountryCode": "US",
+            "ZipCode": "84102",
+            "Url": "http://www.theurbanloungeslc.com/urbanlounge/calendar/listing.html",
+            "Latitude": 40.763695,
+            "Longitude": -111.87678
+        },
+        "Artists": [{
+            "Id": 42766,
+            "Name": "Har Mar Superstar"
+        }, {
+            "Id": 90896,
+            "Name": "The Afghan Whigs"
+        }, {
+            "Id": 108352,
+            "Name": "Mitski"
+        }],
+        "TicketUrl": "http://www.shareasale.com/r.cfm?u=460319&b=234786&m=27601&afftrack=&urllink=https://www.ticketfly.com/purchase/event/1519952/tfly?utm_medium=api"
+    }, {
+        "Id": 2975010,
+        "Date": "2017-10-20T20:00:00",
+        "Venue": {
+            "Id": 5043,
+            "Name": "Urban Lounge",
+            "Address": "241 South 500 East",
+            "City": "Salt Lake City",
+            "State": "Utah",
+            "StateCode": "UT",
+            "Country": "US",
+            "CountryCode": "US",
+            "ZipCode": "84102",
+            "Url": "http://www.theurbanloungeslc.com/urbanlounge/calendar/listing.html",
+            "Latitude": 40.763695,
+            "Longitude": -111.87678
+        },
+        "Artists": [{
+            "Id": 42766,
+            "Name": "Har Mar Superstar"
+        }, {
+            "Id": 90896,
+            "Name": "The Afghan Whigs"
+        }],
+        "TicketUrl": "http://www.shareasale.com/r.cfm?u=460319&b=234786&m=27601&afftrack=&urllink=https://www.ticketfly.com/purchase/event/1479598/tfly?utm_medium=api"
+    }, {
+        "Id": 2974145,
+        "Date": "2017-10-21T20:00:00",
+        "Venue": {
+            "Id": 2978,
+            "Name": "Gothic Theatre",
+            "Address": "3263 South Broadway",
+            "City": "Englewood",
+            "State": "Colorado",
+            "StateCode": "CO",
+            "Country": "US",
+            "CountryCode": "US",
+            "ZipCode": "80113",
+            "Url": "http://www.gothictheatre.com/",
+            "Latitude": 39.650887,
+            "Longitude": -104.987837
+        },
+        "Artists": [{
+            "Id": 42766,
+            "Name": "Har Mar Superstar"
+        }, {
+            "Id": 90896,
+            "Name": "The Afghan Whigs"
+        }],
+        "TicketUrl": "http://www.tunestub.com/event.cfm?id=261718&key=ts_iEVMwYxXEOU3YNs"
+    }, {
+        "Id": 2974154,
+        "Date": "2017-10-22T19:00:00",
+        "Venue": {
+            "Id": 51821,
+            "Name": "The RecordBar",
+            "Address": "1020 Westport Road",
+            "City": "Kansas City",
+            "State": "Missouri",
+            "StateCode": "MO",
+            "Country": "US",
+            "CountryCode": "US",
+            "ZipCode": "64111",
+            "Url": "http://www.therecordbar.com/",
+            "Latitude": 39.04995,
+            "Longitude": -94.598489
+        },
+        "Artists": [{
+            "Id": 42766,
+            "Name": "Har Mar Superstar"
+        }, {
+            "Id": 90896,
+            "Name": "The Afghan Whigs"
+        }],
+        "TicketUrl": "http://ticketmaster.evyy.net/c/252938/264167/4272?u=http%3A%2F%2Fwww.ticketmaster.com%2Fevent%2F0600529DA1391281"
+    }, {
+        "Id": 2974150,
+        "Date": "2017-10-24T18:30:00",
+        "Venue": {
+            "Id": 62889,
+            "Name": "The Mohawk",
+            "Address": "912 Red River Rd.",
+            "City": "Austin",
+            "State": "Texas",
+            "StateCode": "TX",
+            "Country": "US",
+            "CountryCode": "US",
+            "ZipCode": "78701",
+            "Url": "http://mohawkaustin.com/",
+            "Latitude": 30.269559,
+            "Longitude": -97.736201
+        },
+        "Artists": [{
+            "Id": 42766,
+            "Name": "Har Mar Superstar"
+        }, {
+            "Id": 90896,
+            "Name": "The Afghan Whigs"
+        }],
+        "TicketUrl": "http://www.tunestub.com/event.cfm?id=261720&key=ts_iEVMwYxXEOU3YNs"
+    }, {
+        "Id": 2974146,
+        "Date": "2017-10-25T07:30:00",
+        "Venue": {
+            "Id": 1486,
+            "Name": "Trees",
+            "Address": "2709 Elm St",
+            "City": "Dallas",
+            "State": "Texas",
+            "StateCode": "TX",
+            "Country": "US",
+            "CountryCode": "US",
+            "ZipCode": "75201",
+            "Url": "http://treesdallas.com",
+            "Latitude": 32.78283,
+            "Longitude": -96.792579
+        },
+        "Artists": [{
+            "Id": 42766,
+            "Name": "Har Mar Superstar"
+        }, {
+            "Id": 90896,
+            "Name": "The Afghan Whigs"
+        }],
+        "TicketUrl": "http://www.shareasale.com/r.cfm?u=460319&b=234786&m=27601&afftrack=&urllink=https://www.ticketfly.com/purchase/event/1479495/tfly?utm_medium=api"
+    }, {
+        "Id": 2974147,
+        "Date": "2017-10-26T00:00:00",
+        "Venue": {
+            "Id": 160148,
+            "Name": "The Heights Theater",
+            "Address": "339 W 19th St",
+            "City": "Houston",
+            "State": "Texas",
+            "StateCode": "TX",
+            "Country": "US",
+            "CountryCode": "US",
+            "ZipCode": "77008",
+            "Url": "",
+            "Latitude": 0.0,
+            "Longitude": 0.0
+        },
+        "Artists": [{
+            "Id": 42766,
+            "Name": "Har Mar Superstar"
+        }, {
+            "Id": 90896,
+            "Name": "The Afghan Whigs"
+        }],
+        "TicketUrl": ""
+    }, {
+        "Id": 3045311,
+        "Date": "2017-10-27T21:00:00",
+        "Venue": {
+            "Id": 8303,
+            "Name": "John Barleycorn's",
+            "Address": "608 E Douglas Ave",
+            "City": "Wichita",
+            "State": "Kansas",
+            "StateCode": "KS",
+            "Country": "US",
+            "CountryCode": "US",
+            "ZipCode": "67202",
+            "Url": "",
+            "Latitude": 37.686062,
+            "Longitude": -97.331334
+        },
+        "Artists": [{
+            "Id": 42766,
+            "Name": "Har Mar Superstar"
+        }],
+        "TicketUrl": "http://www.shareasale.com/r.cfm?u=460319&b=234786&m=27601&afftrack=&urllink=https://www.ticketfly.com/purchase/event/1560491/tfly?utm_medium=api"
+    }]
+}

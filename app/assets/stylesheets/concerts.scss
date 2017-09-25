@@ -4,7 +4,20 @@
 @import "font-awesome-sprockets";
 @import "font-awesome";
 
+.search{
+  margin: 50px auto;
+  width: 50%;
+  position: auto;
+  font-size: 24px;
+}
 
+.search input {
+  height: 50px;
+}
+
+.submit {
+  width: 33%;
+}
 
 .concert-list {
   background-color: #ededed;
@@ -34,11 +47,15 @@
   border-spacing: 10px;
 }
 
-.info {
+
+.hidden {
+  display: none;
 }
 
 .concert-table {
   text-align: center;
+  display: block;
+  height: 500px;
 }
 
 table {
@@ -49,6 +66,7 @@ table {
 
 tbody {
    overflow: auto;
+   overflow-y: scroll;
    tr:hover {
      background-color: white;
      color: #d41423;
@@ -62,6 +80,6 @@ th {
 }
 
 td {
-  padding: 5px;
+  padding: 10px;
   border-bottom: 1px solid #d41423;
 }
