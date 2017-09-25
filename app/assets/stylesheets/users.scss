@@ -1,3 +1,48 @@
 // Place all the styles related to the users controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.photo-upload {
+  background-color: #d41423;
+  margin: auto;
+  color: #ededed;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  width: 100%;
+  margin: 5px;
+  overflow: hidden;
+  position: relative;
+  border: solid;
+  border-color: #d41423;
+}
+
+.photo-upload:hover{
+  background-color: #ededed;
+  color: #d41423;
+}
+
+.photo-upload [type=file] {
+    cursor: inherit;
+    display: block;
+    font-size: 999px;
+    filter: alpha(opacity=0);
+    min-height: 100%;
+    min-width: 100%;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    text-align: right;
+    top: 0;
+}
+
+.profile_pic {
+  border-radius: 50%;
+  width: 85px;
+  height: 85px;
+  margin: 15px;
+  position: fixed;
+  left: 25%;
+  border: solid;
+  border-color: #d41423
+}

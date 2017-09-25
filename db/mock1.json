@@ -1,0 +1,11 @@
+{
+    "Info": {
+        "TotalResults": 1,
+        "PageNumber": 0,
+        "Message": "search artist by name"
+    },
+    "Artists": [{
+        "Id": 42766,
+        "Name": "Har Mar Superstar"
+    }]
+}
