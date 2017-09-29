@@ -40,7 +40,8 @@
   color: #ededed;
   text-align: center;
   font-size: 28px;
-  margin: 0px 400px;
+  margin: 75px 400px;
+  width: 110%;
 }
 
 .concert-list table{
@@ -82,4 +83,23 @@ th {
 td {
   padding: 10px;
   border-bottom: 1px solid #d41423;
+}
+
+.tickets {
+  text-align: center;
+}
+
+.lets-go{
+  text-align: center;
+  background-color: #d41423;
+}
+
+.lets-go a{
+  color: #ededed;
+  margin: auto;
+  text-decoration: none;
+}
+
+.lets-go a:hover{
+  text-decoration: underline;
 }

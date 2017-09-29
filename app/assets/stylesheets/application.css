@@ -15,6 +15,7 @@
  */
  @import "font-awesome-sprockets";
  @import "font-awesome";
+ @import url('https://fonts.googleapis.com/css?family=Allerta+Stencil');
 
 
 
@@ -59,6 +60,9 @@
     margin: 5px;
   }
 
+
+
+
   .button {
     background-color: #d41423;
     padding: 10px;
@@ -81,9 +85,15 @@
     background-color: #d41423;
     font-size: 32px;
     opacity: 0.9;
+    width: 110%
   }
 
   .logo img{
     width: 55%;
-    padding:10px;
+    padding:15px;
+    margin: auto;
+  }
+
+  a {
+    color: #d41423;
   }

@@ -12,13 +12,15 @@ Rails.application.routes.draw do
 
 
 # React routing
-  devise_for :users, controllers: { sessions: 'users/sessions' }
+  devise_for :users, controllers: { sessions: 'users/sessions', comments: 'comments' }
   resources :users
   # resources :concerts, only: [:index]
 
   namespace :api do
     namespace :v1 do
       resources :concerts, only: [:index, :show] do
+        resources :comments do
+        end
       end
     end
   end

@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import ConcertComponent from '../components/ConcertComponent';
+import ConcertShowComponent from '../components/ConcertShowComponent';
 import {Link} from 'react-router-dom';
 
 class ConcertsIndexContainer extends Component {
@@ -20,7 +21,7 @@ class ConcertsIndexContainer extends Component {
     let formPayload = {
       search: this.state.search.replace(/\s/g, "+")
     }
-    fetch(`http://api.jambase.com/artists?name=${formPayload.search}&page=0&api_key=j5z2vswfvvvspvu9s9sbzewh`)
+    fetch(`/api/v1/concerts?artist_name=${formPayload.search}`)
     .then(response => {
       if (response.ok) {
         return response.json();
@@ -32,30 +33,12 @@ class ConcertsIndexContainer extends Component {
     })
     .then(body => {
       this.setState({
-        artistID: body.Artists[0].Id,
-        artistNAME: body.Artists[0].Name
+        concerts: body,
+        artistNAME: body[0].artist
       })
-      let artistName = body.Artists[0].Name;
-      let artistId = body.Artists[0].Id;
-      fetch(`http://api.jambase.com/events?artistId=${artistId}&page=0&api_key=j5z2vswfvvvspvu9s9sbzewh`)
-      .then(response => {
-        if (response.ok) {
-          return response.json();
-        } else {
-          let errorMessage = `${response.status} ${response.statusText}`,
-          error = new Error(errorMessage);
-          throw(error);
-        }
-      })
-      .then(body => {
-        this.setState({
-          concerts: body.Events
-        })
-      })
-      .catch(error => console.error(`Error in fetch: ${error.message}`));
     })
+    .catch(error => console.error(`Error in fetch: ${error.message}`));
   }
-
 
   handleItemChange(event){
     event.preventDefault();
@@ -67,30 +50,30 @@ class ConcertsIndexContainer extends Component {
 
   render() {
     let searchResults = '';
-    if (this.state.artistID == '' ){searchResults = 'hidden'}
+    if (this.state.artistNAME === '' ){searchResults = 'hidden'}
     else {searchResults = 'concert-table'}
 
     let concertsComponents = this.state.concerts.map((concert) => {
-
       return (
         <ConcertComponent
-        key = {concert.id}
-        id = {concert.id}
-        artist = {this.state.artistNAME}
-        date = {concert.Date}
-        city = {concert.Venue.City}
-        venueName = {concert.Venue.Name}
-        ticketURL = {concert.TicketUrl}
+          key = {concert.id}
+          id = {concert.id}
+          artist = {concert.artist}
+          date = {concert.date}
+          city = {concert.city}
+          venueName = {concert.venue_name}
+          ticketURL = {concert.ticket_URL}
         />
-
       )
     })
+
+
 
     return (
       <div>
         <form className="search"onSubmit={this.handleSearchSubmit}>
           <label htmlFor="search"></label>
-          <input name="search" placeholder="Search" value={this.state.search} onChange={this.handleItemChange}/>
+          <input name="search" placeholder="Search for a band on tour" value={this.state.search} onChange={this.handleItemChange}/>
           <button className="button" type="submit">Submit</button>
         </form>
 
