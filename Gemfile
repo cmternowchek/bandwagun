@@ -17,6 +17,7 @@ gem 'foundation-rails'
 gem 'font-awesome-sass'
 gem 'devise'
 gem 'httparty'
+gem 'sprockets'
 
 
 
