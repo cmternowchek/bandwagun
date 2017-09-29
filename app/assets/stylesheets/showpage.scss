@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Allerta+Stencil');
+
+.band-name{
+  font-family: 'Allerta Stencil', sans-serif;
+  margin:auto;
+  font-size: 38px;
+  background-color: #EDEDED;
+  color: #d41423;
+  text-align: center;
+  text-transform: uppercase;
+  opacity: 0.9;
+  width: 102%
+}
+
+.show-info {
+  background-color: #ededed;
+  border-top: solid;
+  border-bottom: solid;
+  border-color: #d41423;
+  margin: 20px auto;
+  font-size: 30px;
+  opacity: 0.9;
+  text-align: center;
+  line-height: 50px;
+  width: 102%;
+}
+
+.iframe {
+  display:block;
+  margin:auto;
+  text-align: center;
+}
+
+
+span{
+  margin: 20px;
+}
+
+iframe{
+  border: solid;
+  border-color: #d41423;
+}
+
+.stuff{
+  background-color: #ededed;
+  padding: 10px;
+  border: solid;
+  border-color: #d41423;
+  opacity: 0.9;
+  margin: 0px 5px;
+}
+
+.column {
+    float: left;
+    width: 48%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+.next:hover{
+  border-top: #ededed;
+  border-bottom: #ededed;
+}
+
+.previous:hover{
+  border-top: #ededed;
+  border-bottom: #ededed;
+}

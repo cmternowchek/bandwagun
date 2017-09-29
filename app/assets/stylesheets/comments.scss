@@ -1,0 +1,29 @@
+// Place all the styles related to the comments  controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+textarea {
+  width: 97%;
+  height: 250px;
+  font-size: 24px;
+  margin: 10px;
+}
+
+.comment-component {
+  font-size: 24px;
+  padding-left: 10px;
+  margin: 2px;
+    hr {
+      border-color: #d41423;
+    }
+}
+
+.comment-form input[type=text] {
+  width: 98%;
+}
+
+.icon {
+  color: #d41423;
+}
