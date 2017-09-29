@@ -65,7 +65,7 @@ class ConcertsShowContainer extends Component {
     }
 
     render () {
-      let roomMap=`http://widget.alltherooms.com/widget/?key=730fca0345a671078c8f55fc190628ea6a7265d4#schema=v1&location=${this.state.concert.venue_lat},${this.state.concert.venue_lng}&start_date=2017-10-13&primary_color=d41423&initial_zoom=15&tileset=hot`
+      let roomMap=`https://widget.alltherooms.com/widget/?key=730fca0345a671078c8f55fc190628ea6a7265d4#schema=v1&location=${this.state.concert.venue_lat},${this.state.concert.venue_lng}&start_date=2017-10-13&primary_color=d41423&initial_zoom=15&tileset=hot`
 
       let CommentComponents = this.state.comments.map((comment) => {
       return (
