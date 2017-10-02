@@ -65,7 +65,7 @@ class ConcertsShowContainer extends Component {
     }
 
     render () {
-      let roomMap=`https://widget.alltherooms.com/widget/?key=111e36fffc103da97a9bf5f281c50cb0f6f7d0c9#schema=v1&location=${this.state.concert.venue_lat},${this.state.concert.venue_lng}&start_date=2017-10-13&primary_color=d41423&initial_zoom=15&tileset=hot`
+      let allTheRoomsMap=`https://widget.alltherooms.com/widget/?key=111e36fffc103da97a9bf5f281c50cb0f6f7d0c9#schema=v1&location=${this.state.concert.venue_lat},${this.state.concert.venue_lng}&start_date=2017-10-13&primary_color=d41423&initial_zoom=15&tileset=hot`
 
       let CommentComponents = this.state.comments.map((comment) => {
       return (
@@ -98,7 +98,7 @@ class ConcertsShowContainer extends Component {
               </div>
             </div>
             <div className="iframe column">
-              <iframe src={roomMap} width="100%" height="750"></iframe>
+              <iframe src={allTheRoomsMap} width="100%" height="750"></iframe>
             </div>
           </div>
         </div>
